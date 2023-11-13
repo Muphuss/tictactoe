@@ -57,12 +57,13 @@ body {
 }
 
 .login {
-    border: 2px solid #cd48d72a; 
+    border: 1px solid #ffffff33;
     text-align: center;
-    padding: 20px; 
-    background-color: rgba(255, 255, 255, 0.377); 
+    padding: 20px;
     border-radius: 20px;
-    box-shadow: 2px 2px 4px black;
+    box-shadow: 2px 4px 10px #00000033;
+    backdrop-filter: blur(140px);
+    background: linear-gradient(10deg, #00000022, transparent);
 }
 
 .login input::placeholder {
@@ -75,13 +76,11 @@ input {
     text-align: center;
     background-color: #cd48d717;
     color: white;
-    border: 1px solid black;
+    border: 1px solid #ffffff33;
     border-radius: 20px;
-    padding: 9px 0px; 
+    padding: 9px 0px;
     margin: 5px;
-    width: 100%; 
-    justify-content: center;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.535);
+    width: 100%;
 }
 
 button {
